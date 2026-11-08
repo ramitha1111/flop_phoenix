@@ -5,6 +5,7 @@ env:
   OTP_VERSION: "29"
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
